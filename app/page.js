@@ -74,7 +74,7 @@ export default function HomePage () {
               <Image
                 src={Hero}
                 alt='A selection of fine wines and liquors'
-                className='w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 '
+                className='w-full h-auto rounded-lg shadow-lg hover:shadow-2xl  duration-300 '
               />
             </div>
           </div>
