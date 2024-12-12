@@ -145,7 +145,7 @@ export default function ProductsPage () {
         </div>
         <div className='grid sm:grid-cols-1 lg:grid-cols-2  ` w-full gap-8'>
           {paginatedProducts.map(product => (
-            <div className='' key={product.id}>
+            <div className=' animate-fadeInUpDelay2' key={product.id}>
               <div className='gap-2 border-gray-300 border-[0.5px] rounded-2xl shadow-md p-3 bg-transparent flex justify-between items-center w-full'>
                 <img
                   src={product.image}
