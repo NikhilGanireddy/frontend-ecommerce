@@ -4,10 +4,13 @@ import Image from 'next/image'
 import Wine from './../public/wine-bg.svg'
 import Hero from './../public/hero2.jpg'
 import { useAuth } from '@clerk/nextjs'
+import Router from "next/router";
 
 export default function HomePage () {
 
   const isSigned = useAuth()
+    Router.reload()
+
   return (
     <div className=''>
       <Image
